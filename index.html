@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supporto — Desto</title>
+<meta name="description" content="Assistenza e domande frequenti su Desto, l'utility per macOS che impedisce lo sleep del Mac.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="it" href="https://icelyfire.github.io/desto-legal/">
+<link rel="alternate" hreflang="en" href="https://icelyfire.github.io/desto-legal/en/">
+<link rel="alternate" hreflang="x-default" href="https://icelyfire.github.io/desto-legal/">
+</head>
+<body>
+
+<header class="site">
+  <div class="site-inner">
+    <a class="brand" href="index.html">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+        <g style="color: var(--accent)">
+          <path d="M2,11 Q11,3 20,11 Q11,19 2,11 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          <circle cx="11" cy="11" r="3.1" fill="currentColor"/>
+        </g>
+      </svg>
+      Desto
+    </a>
+    <nav class="site">
+      <a href="index.html" aria-current="page">Supporto</a>
+      <a href="privacy.html">Privacy</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a class="lang" href="en/index.html" hreflang="en" lang="en" title="Read this page in English">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Supporto</h1>
+  <p class="lede">Desto è un'utility per macOS che vive nella barra dei menu e impedisce al Mac di andare in stop, quando lo attivi tu.</p>
+
+  <div class="note">
+    <p><strong>Desto non richiede account né connessione a Internet.</strong> Funziona interamente sul tuo Mac usando le API di sistema per la gestione energetica.</p>
+  </div>
+
+  <h2>Come funziona</h2>
+  <p><strong>Click singolo</strong> sull'icona a forma di occhio nella barra dei menu apre un piccolo menu con due modalità:</p>
+  <ul>
+    <li><strong>Impedisci sleep di sistema</strong> — il Mac resta attivo, ma lo schermo può comunque spegnersi da solo.</li>
+    <li><strong>Impedisci sleep di sistema e schermo</strong> — anche lo schermo resta acceso.</li>
+  </ul>
+  <p>Selezionare di nuovo la voce attiva la disattiva. L'icona nella barra dei menu mostra un occhio aperto quando una delle due modalità è attiva, chiuso quando Desto è disattivato.</p>
+  <p><strong>Doppio click</strong> sull'icona attiva o disattiva direttamente la modalità completa (sistema e schermo), senza passare dal menu.</p>
+
+  <h2>Avvio al login</h2>
+  <p>Dal menu puoi attivare <strong>Avvia al login</strong> per far partire Desto automaticamente a ogni accesso al Mac. La preferenza è gestita direttamente da macOS: se disinstalli l'app, viene rimossa automaticamente.</p>
+
+  <h2>Domande frequenti</h2>
+
+  <dl class="faq">
+    <dt>Non vedo l'icona nella barra dei menu</dt>
+    <dd>Se la barra dei menu è molto piena, macOS può nascondere le icone più a sinistra. Prova a chiudere altre app che occupano la barra, oppure verifica che Desto sia effettivamente in esecuzione (cercalo in Launchpad o nella cartella Applicazioni).</dd>
+
+    <dt>Il Mac va comunque in stop anche con Desto attivo</dt>
+    <dd>Su un notebook, chiudere il coperchio forza sempre lo stop del sistema: nessuna app di terze parti può impedirlo, ed è il comportamento previsto da macOS. Desto agisce solo sullo stop per inattività.</dd>
+
+    <dt>"Avvia al login" non si attiva</dt>
+    <dd>macOS può chiedere un'autorizzazione la prima volta. Se non succede nulla, controlla in Impostazioni di Sistema → Generali → Elementi di login che Desto non sia stato bloccato.</dd>
+
+    <dt>Desto consuma più batteria?</dt>
+    <dd>Sì, per natura: impedire lo stop (ed eventualmente tenere lo schermo acceso) consuma più energia del normale risparmio energetico. Disattiva la modalità quando non ti serve più.</dd>
+
+    <dt>Come disinstallo Desto?</dt>
+    <dd>Sposta l'app nel Cestino. Desto non salva preferenze né file altrove sul disco, quindi non resta nulla da rimuovere.</dd>
+
+    <dt>Desto raccoglie dati su di me?</dt>
+    <dd>No. Nessun dato viene raccolto, tracciato o inviato allo sviluppatore. I dettagli sono nell'<a href="privacy.html">informativa sulla privacy</a>.</dd>
+  </dl>
+
+  <h2>Contatti</h2>
+  <div class="card">
+    <p>Per segnalazioni, problemi o suggerimenti scrivi a:</p>
+    <p class="contact"><a href="mailto:developer@ganugi.it">developer@ganugi.it</a></p>
+    <p>Se stai segnalando un problema, indica il modello di Mac, la versione di macOS e la versione di Desto (la trovi nel menu, sotto Crediti). Rispondo appena possibile.</p>
+  </div>
+
+  <p class="disclaimer">Desto è un'app indipendente, non affiliata né approvata da Apple Inc. macOS e i nomi delle relative funzioni sono marchi di Apple Inc., citati solo a scopo descrittivo.</p>
+
+  <footer class="site">
+    <span>Desto</span>
+    <span><a href="privacy.html">Informativa sulla privacy</a></span>
+  </footer>
+</main>
+
+</body>
+</html>
